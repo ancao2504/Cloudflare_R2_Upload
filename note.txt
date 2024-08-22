@@ -1,0 +1,3 @@
+# Cách sử dụng
+cd Async/Cloudflare_R2_Upload/src
+npm run dev

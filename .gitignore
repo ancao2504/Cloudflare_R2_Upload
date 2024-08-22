@@ -246,3 +246,7 @@ fabric.properties
 
 build/
 test.txt
+
+uploads/*
+
+upload_errors.log

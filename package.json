@@ -1,7 +1,7 @@
 {
-  "name": "cloudflare_r2_upload",
+  "name": "async_cloudflare_r2_upload",
   "packageManager": "yarn@3.2.1",
-  "version": "0.0.0",
+  "version": "1.0.2",
   "private": true,
   "type": "module",
   "scripts": {
@@ -12,16 +12,28 @@
   "dependencies": {
     "@aws-sdk/client-s3": "^3.186.0",
     "dotenv": "^16.0.3",
-    "md5": "^2.3.0"
+    "md5": "^2.3.0",
+    "mime-types": "^2.1.35"
   },
   "devDependencies": {
     "@types/md5": "^2.3.2",
-    "@types/node": "^18.8.0",
+    "@types/mime-types": "^2.1.4",
+    "@types/node": "^18.19.45",
     "esbuild": "^0.15.10",
     "nodemon": "^2.0.20",
     "typescript": "^4.8.4"
   },
   "engines": {
     "node": ">=10.0.0"
-  }
+  },
+  "description": "This is a simple script to upload files to Cloudflare R2. It is written in TypeScript and uses `@aws-sdk/client-s3`.",
+  "main": "src/app.ts",
+  "keywords": [
+    "async",
+    "cloudflare",
+    "cloudflare-r2",
+    "r2-upload"
+  ],
+  "author": "An Cao",
+  "license": "ISC"
 }
